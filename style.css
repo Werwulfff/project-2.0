@@ -1,0 +1,160 @@
+body{
+	background-image: url("../img/bg.png");
+	background-color: #ccc;
+
+    box-sizing: border-box;
+	font-size: 16px;
+    line-height: 24px;	
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+@media(max-width: 720px){
+	header{
+		flex-flow: row-reverse;
+	}
+}
+
+
+
+header > *{
+	border: 1px solid yellow;
+}
+
+.logo-name{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+color: #FFFFFF;
+display: inline-block;
+
+}
+
+nav{
+}
+
+ul{
+
+}
+li{
+	display: inline-block;
+	
+	padding: 5px;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 17px;
+	color: #fff;
+}
+li a{
+
+}
+
+
+
+
+
+
+.order{
+	display: table;
+	
+
+}
+.btn{
+	display: table-cell;
+	vertical-align: middle;
+	border: 2px solid #0DD1A2;
+box-sizing: border-box;
+border-radius: 2px;
+padding: 10px;
+text-align: center;
+}
+
+.phone{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.phone a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Ubuntu;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	color: #FFFFFF;
+padding: 5px;
+display: inline-block;
+border: 1px solid red;
+vertical-align: middle;
+}
+
+/*
+.logoGroup a{
+	position: relative;
+
+}
+
+.logoGroup a > .logo-name{
+	display: table-cell;
+	vertical-align: middle;
+	position: absolute;
+	top: -100%;
+} */
+/*
+.rty{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row-reverse;
+	-moz-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	-o-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+*/
+.order1{
+	position: relative;
+	padding: 15px;
+	background-color: #fff;
+
+}
+
+.btn1{
+position: absolute;
+border:1px solid red;
+top:0%;
+left:81%;
+color: green;
+height: 100%;
+}
+
+.phone1{
+position: absolute;
+border:1px solid red;
+left: 88%;
+top: 0%;
+padding: 2px;
+}
+
