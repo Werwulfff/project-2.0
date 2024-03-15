@@ -124,3 +124,113 @@ li a{
 	padding: 2px;
 }
 
+.qwer{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logoGroup2{
+	border: 1px solid white;
+	border:1px solid red;
+	color: green;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.logo2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	border: 1px solid red;
+}
+
+.logo2 svg{
+	fill:yellow;
+}
+
+.logo2:hover svg{
+	fill: #291a2d;
+}
+
+.logo-name2{
+	border: 1px solid white;
+}
+
+
+.main-navigation2{
+	border: 1px solid white;
+}
+
+.order2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	color:grey;
+	float: right;
+}
+
+.btn2{
+	border:1px solid red;
+	color: green;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 5px;
+}
+
+.btn2 span{
+	border: 1px solid white;
+}
+
+.phone2{
+	border:1px solid red;
+	padding: 2px;
+	align-items: center;
+	padding: 5px;
+	border:1px solid red;
+	color: green;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
