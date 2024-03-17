@@ -12,10 +12,6 @@ body{
 }
 
 header{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
 	-ms-align-items: center;
@@ -173,10 +169,6 @@ li a{
 }
 
 .order2{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	color:grey;
 	float: right;
@@ -206,16 +198,10 @@ li a{
 	padding: 5px;
 	border:1px solid red;
 	color: green;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
 	}
-
-
 
 
 
